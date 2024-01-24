@@ -1,3 +1,5 @@
+## Async programming day1 => callback-Task1
+
 ## Display countdown 10 to 1 ad display message "Happy Independence day"
 
 1. Declared 2 HTML div elements .
@@ -13,4 +15,4 @@
 7. document.getElementById("countdown").textContent = count; is used to display currentvalueof count.
 8. and count--; decrements the count to 1.
 9. if (count >= 0); if block check if countdown is greater than or equal to 0 . if greater than 0 function gets called after 1 sec through settimeout.
-10. When countdown reached 0 else block callback fun executed that is showmessage funtion .
+10. When countdown reached 0 else block callback fun executed the showmessage funtion .
